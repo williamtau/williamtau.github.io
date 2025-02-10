@@ -4073,6 +4073,36 @@ figure.highlight pre .javascript .function {
 #post .ads-wrap {
   margin: 40px 0;
 }
+#post .post-excerpt {
+  position: relative;
+  margin-bottom: 2em;
+  padding-bottom: 1em;
+  border-bottom: 1px dashed var(--light-grey);
+}
+#post .post-excerpt:after {
+  content: '摘要部分';
+  position: absolute;
+  right: 0;
+  bottom: -0.7em;
+  padding: 0 0.5em;
+  background: var(--card-bg);
+  color: var(--light-grey);
+  font-size: 0.8em;
+}
+#post .post-more {
+  position: relative;
+  margin-top: 2em;
+}
+#post .post-more:before {
+  content: '正文部分';
+  position: absolute;
+  right: 0;
+  top: -0.7em;
+  padding: 0 0.5em;
+  background: var(--card-bg);
+  color: var(--light-grey);
+  font-size: 0.8em;
+}
 .relatedPosts {
   margin-top: 40px;
 }
